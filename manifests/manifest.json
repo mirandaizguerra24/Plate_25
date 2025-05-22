@@ -1,195 +1,939 @@
 {
-  "@context" : "http://iiif.io/api/presentation/2/context.json",
-  "@id" : "https://mirandaizguerra24.github.io/Plate_25/manifests/manifest.json",
-  "@type" : "sc:Manifest",
-  "label" : "Barnard's \"A Photographic Atlas of Selected Regions of the Milky Way,\" Plate 25 (10B-255)\n",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://mirandaizguerra24.github.io/Plate_25/manifests/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Barnard's \"A Photographic Atlas of Selected Regions of the Milky Way,\" Plate 25 (10B-255)\n" ]
+  },
   "metadata" : [ {
-    "label" : "Telescope used for plate capture",
-    "value" : "10-inch Bruce"
+    "label" : {
+      "en" : [ "Telescope used for Plate Capture" ]
+    },
+    "value" : {
+      "en" : [ "10-inch Bruce" ]
+    }
   }, {
-    "label" : "Date of Plate Exposure",
-    "value" : "1905 JUly 25"
+    "label" : {
+      "en" : [ "Date of Plate Exposure" ]
+    },
+    "value" : {
+      "en" : [ "1905 July 25" ]
+    }
   }, {
-    "label" : "Location of Exposure (Include City)",
-    "value" : "Mt. Wilson Observatory. Pasadena, California."
+    "label" : {
+      "en" : [ "Location of Exposure\n(Include City)" ]
+    },
+    "value" : {
+      "en" : [ "Mt. Wilson Observatory. Pasadena, California." ]
+    }
   }, {
-    "label" : "Corresponding Logbook Reference Number",
-    "value" : "yerkesplates-0012, image 28"
+    "label" : {
+      "en" : [ "Corresponding Logbook Reference Number" ]
+    },
+    "value" : {
+      "en" : [ "yerkesplates-0012, page 28 " ]
+    }
   }, {
-    "label" : "Classification",
-    "value" : "Sky Survey"
+    "label" : {
+      "en" : [ "Plate Number Referenced in Barnard Atlas" ]
+    },
+    "value" : {
+      "en" : [ "Plate 25 in Barnard Atlas" ]
+    }
   }, {
-    "label" : "Right Ascension",
-    "value" : "17h 49m 30s (B1875)"
+    "label" : {
+      "en" : [ "Classification" ]
+    },
+    "value" : {
+      "en" : [ "Sky Survey" ]
+    }
   }, {
-    "label" : "Declination",
-    "value" : "-16º 56' (B1875)"
+    "label" : {
+      "en" : [ "Right Ascension" ]
+    },
+    "value" : {
+      "en" : [ "17h 49m 30s (B1875)" ]
+    }
   }, {
-    "label" : "Region of the Sky",
-    "value" : "Region in Serpens and Sagittarius. "
+    "label" : {
+      "en" : [ "Declination" ]
+    },
+    "value" : {
+      "en" : [ "-16º 56' (B1875)" ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "Region of the Sky" ]
+    },
+    "value" : {
+      "en" : [ "Region in Serpens and Sagittarius. " ]
+    }
+  }, {
+    "label" : {
+      "en" : [ "" ]
+    },
+    "value" : {
+      "en" : [ "" ]
+    }
   } ],
-  "description" : [ {
-    "@value" : "The University of Chicago's Yerkes Project Team digitized the original glass plates from Edwin Emerson Barnard’s A Photographic Atlas of Selected Regions of the Milky Way (1927). This pilot project for the IIIF 5-Day Workshop features Plate 25, highlighting the Serpens and Sagittarius region and how the collection could be displayed in a IIIF viewer. ",
-    "@language" : "en"
-  } ],
-  "license" : "https://creativecommons.org/licenses/by/3.0/",
-  "attribution" : "The University of Chicago",
-  "sequences" : [ {
-    "@id" : "http://ac12d523-e9d8-4bce-8a9e-6fca7f61be2d",
-    "@type" : "sc:Sequence",
-    "label" : [ {
-      "@value" : "Normal Sequence",
-      "@language" : "en"
+  "summary" : {
+    "en" : [ "The University of Chicago's Yerkes Project Team digitized the original glass plates from Edwin Emerson Barnard’s A Photographic Atlas of Selected Regions of the Milky Way (1927). This pilot project for the IIIF 5-Day Workshop features Plate 25, highlighting the Serpens and Sagittarius region and how the collection could be displayed in a IIIF viewer. " ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/ewd3py34hvf-mazvvbfw",
+    "type" : "Canvas",
+    "height" : 3189,
+    "width" : 3189,
+    "label" : {
+      "en" : [ "Plate 25 [188]" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Page Referenced From" ]
+      },
+      "value" : {
+        "en" : [ "A photographic atlas of selected regions of the Milky Way, / by Edward Emerson Barnard. Edited by Edwin B. Frost and Mary R. Calvert." ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Created/Published" ]
+      },
+      "value" : {
+        "en" : [ "[Washington] Carnegie Institution of Washington, 1927." ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Page Number in Atlas" ]
+      },
+      "value" : {
+        "en" : [ "[188]" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Names" ]
+      },
+      "value" : {
+        "en" : [ "Barnard, Edward Emerson, 1857-1923.\nFrost, Edwin Brant, 1866-1935.\nCalvert, Mary R. (Mary Ross), 1884-" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "OCLC Number" ]
+      },
+      "value" : {
+        "en" : [ "2459828" ]
+      }
     } ],
-    "canvases" : [ {
-      "@id" : "http://f1e47d3e-e3b7-4935-9c10-268710ef97a3",
-      "@type" : "sc:Canvas",
-      "label" : "5x7 Central Capture, Negative",
-      "height" : 1535,
-      "width" : 2048,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://2535c106-7602-4024-af90-bb8569177645",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/003/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
+    "summary" : {
+      "en" : [ "Region in Serpens and Sagittarius" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://mirandaizguerra24.github.io/Plate_25/images/page_002/full/399,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 399,
+      "width" : 399
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/ewd3py34hvf-mazvvbfw/annotation-page/w94ecesuou-mazvvbfw",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/3z4o17sybiv-mazhxea7/annotation/yazwzx1rcxh-mazvvbfw",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/ewd3py34hvf-mazvvbfw",
+        "body" : {
+          "id" : "https://mirandaizguerra24.github.io/Plate_25/images/page_002/full/max/0/default.jpg",
+          "type" : "Image",
           "format" : "image/jpeg",
-          "service" : {
+          "height" : 3189,
+          "width" : 3189,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 100,
+              "height" : 100
+            }, {
+              "width" : 200,
+              "height" : 200
+            }, {
+              "width" : 399,
+              "height" : 399
+            }, {
+              "width" : 798,
+              "height" : 798
+            }, {
+              "width" : 1595,
+              "height" : 1595
+            }, {
+              "width" : 3189,
+              "height" : 3189
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3189,
+            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/page_002",
             "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/003",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 1535,
-          "width" : 2048
-        },
-        "on" : "http://f1e47d3e-e3b7-4935-9c10-268710ef97a3"
-      } ],
-      "metadata" : [ {
-        "label" : "Equipment",
-        "value" : "Digital Transitions Versa "
-      }, {
-        "label" : "Camera",
-        "value" : "Phase One iXH 150 MP"
-      }, {
-        "label" : "ISO",
-        "value" : "50"
-      }, {
-        "label" : "Aperture",
-        "value" : "f/5.6"
-      }, {
-        "label" : "Exposure",
-        "value" : "1/4 sec. "
-      }, {
-        "label" : "Side of Plate Captured",
-        "value" : "Emulsion Side Up"
+            "height" : 3189
+          } ]
+        }
       } ]
-    }, {
-      "@id" : "http://06b3cd47-bc4f-4be1-9582-71dfc18e6548",
-      "@type" : "sc:Canvas",
-      "label" : "Whole Plate Image (WPI), Negative",
-      "height" : 10652,
-      "width" : 11612,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://0997991d-5c0d-4d0f-bab0-1705670bc79f",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/004/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/004",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 10652,
-          "width" : 11612
-        },
-        "on" : "http://06b3cd47-bc4f-4be1-9582-71dfc18e6548"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://47e62465-c8ee-409c-98cd-c2aeee3125eb",
-      "@type" : "sc:Canvas",
-      "label" : "Whole Plate Image (WPI), Positive",
-      "height" : 10652,
-      "width" : 11612,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://ef80a2a8-1a8a-4082-967e-bbefe275a086",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/005/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/005",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 10652,
-          "width" : 11612
-        },
-        "on" : "http://47e62465-c8ee-409c-98cd-c2aeee3125eb"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://74971e0a-825f-4e39-b7e1-957862f74936",
-      "@type" : "sc:Canvas",
-      "label" : "Whole Plate Image (WPI), Flash Illuminated",
-      "height" : 10652,
-      "width" : 11612,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://9c831181-7f88-4924-ab55-1bc0e4d3a7d7",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/006/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/006",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 10652,
-          "width" : 11612
-        },
-        "on" : "http://74971e0a-825f-4e39-b7e1-957862f74936"
-      } ],
-      "related" : ""
-    }, {
-      "@id" : "http://f0a9326f-75da-4433-a385-db427a695677",
-      "@type" : "sc:Canvas",
-      "label" : "Glass Plate Envelope",
-      "height" : 7932,
-      "width" : 7807,
-      "images" : [ {
-        "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://92a5da03-2be0-4ce0-9a84-a2b8b17e37c7",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/001/full/full/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/001",
-            "profile" : "http://iiif.io/api/image/2/level0.json"
-          },
-          "height" : 7932,
-          "width" : 7807
-        },
-        "on" : "http://f0a9326f-75da-4433-a385-db427a695677"
-      } ],
-      "related" : ""
     } ]
-  } ],
-  "structures" : [ ]
+  }, {
+    "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/ngdprzb5mdm-mazvvpc9",
+    "type" : "Canvas",
+    "height" : 3189,
+    "width" : 3189,
+    "label" : {
+      "en" : [ "Plate 25 [189]" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Page is Referenced From" ]
+      },
+      "value" : {
+        "en" : [ "A photographic atlas of selected regions of the Milky Way, / by Edward Emerson Barnard. Edited by Edwin B. Frost and Mary R. Calvert." ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Created/Published" ]
+      },
+      "value" : {
+        "en" : [ "[Washington] Carnegie Institution of Washington, 1927.\n" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Page Number in Atlas" ]
+      },
+      "value" : {
+        "en" : [ "[189]" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Names" ]
+      },
+      "value" : {
+        "en" : [ "Barnard, Edward Emerson, 1857-1923.\nFrost, Edwin Brant, 1866-1935.\nCalvert, Mary R. (Mary Ross), 1884-" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "OCLC Number" ]
+      },
+      "value" : {
+        "en" : [ "2459828" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "Table 25" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://mirandaizguerra24.github.io/Plate_25/images/page_003/full/399,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 399,
+      "width" : 399
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/ngdprzb5mdm-mazvvpc9/annotation-page/afby3zf1it8-mazvvpc9",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/3z4o17sybiv-mazhxea7/annotation/k8vvtwlg5st-mazvvpc9",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/ngdprzb5mdm-mazvvpc9",
+        "body" : {
+          "id" : "https://mirandaizguerra24.github.io/Plate_25/images/page_003/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3189,
+          "width" : 3189,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 100,
+              "height" : 100
+            }, {
+              "width" : 200,
+              "height" : 200
+            }, {
+              "width" : 399,
+              "height" : 399
+            }, {
+              "width" : 798,
+              "height" : 798
+            }, {
+              "width" : 1595,
+              "height" : 1595
+            }, {
+              "width" : 3189,
+              "height" : 3189
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3189,
+            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/page_003",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3189
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/34mf79jibw-mazqyyqm",
+    "type" : "Canvas",
+    "height" : 10652,
+    "width" : 11612,
+    "label" : {
+      "en" : [ "Plate 25 " ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Page is Referenced From" ]
+      },
+      "value" : {
+        "en" : [ "A photographic atlas of selected regions of the Milky Way, / by Edward Emerson Barnard. Edited by Edwin B. Frost and Mary R. Calvert." ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Created/Published" ]
+      },
+      "value" : {
+        "en" : [ "[Washington] Carnegie Institution of Washington, 1927." ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Page Number in Atlas" ]
+      },
+      "value" : {
+        "en" : [ "[190]" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Names" ]
+      },
+      "value" : {
+        "en" : [ "Barnard, Edward Emerson, 1857-1923.\nFrost, Edwin Brant, 1866-1935.\nCalvert, Mary R. (Mary Ross), 1884-" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "OCLC Number" ]
+      },
+      "value" : {
+        "en" : [ "2459828" ]
+      }
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://mirandaizguerra24.github.io/Plate_25/images/page_005/full/399,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 1024,
+      "width" : 1024
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/34mf79jibw-mazqyyqm/annotation-page/jjy1tj64lmb-mazqyyqm",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/3z4o17sybiv-mazhxea7/annotation/o4qcw0o3xxj-mazqyyql",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/34mf79jibw-mazqyyqm",
+        "body" : {
+          "id" : "https://mirandaizguerra24.github.io/Plate_25/images/page_005/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 10652,
+          "width" : 11612,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 100,
+              "height" : 100
+            }, {
+              "width" : 200,
+              "height" : 200
+            }, {
+              "width" : 399,
+              "height" : 399
+            }, {
+              "width" : 798,
+              "height" : 798
+            }, {
+              "width" : 1595,
+              "height" : 1595
+            }, {
+              "width" : 3189,
+              "height" : 3189
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3189,
+            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/page_005",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3189
+          } ]
+        }
+      }, {
+        "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/34mf79jibw-mazqyyqm/annotation-page/jjy1tj64lmb-mazqyyqm/annotation/3rgzjow2v8n-mazvjjkx",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "Chart 25 Region in Serpens and Sagittarius" ]
+        },
+        "motivation" : "painting",
+        "target" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/34mf79jibw-mazqyyqm",
+        "body" : {
+          "id" : "https://mirandaizguerra24.github.io/Plate_25/images/page_004/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3189,
+          "width" : 3189,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 100,
+              "height" : 100
+            }, {
+              "width" : 200,
+              "height" : 200
+            }, {
+              "width" : 399,
+              "height" : 399
+            }, {
+              "width" : 798,
+              "height" : 798
+            }, {
+              "width" : 1595,
+              "height" : 1595
+            }, {
+              "width" : 3189,
+              "height" : 3189
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 3189,
+            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/page_004",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3189
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/5vcv26olqzm-mazlvyot",
+    "type" : "Canvas",
+    "height" : 10652,
+    "width" : 11612,
+    "label" : {
+      "en" : [ "Whole Plate Image (WPI), Negative" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Equipment" ]
+      },
+      "value" : {
+        "en" : [ "Digital Transitions Versa" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Camera" ]
+      },
+      "value" : {
+        "en" : [ "iXH 150 MP" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "ISO" ]
+      },
+      "value" : {
+        "en" : [ "50" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Aperture " ]
+      },
+      "value" : {
+        "en" : [ "f/5.6" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Exposure" ]
+      },
+      "value" : {
+        "en" : [ "1/4 sec. " ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Side Captured" ]
+      },
+      "value" : {
+        "en" : [ "Emulsion Side Up" ]
+      }
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://mirandaizguerra24.github.io/Plate_25/images/004/full/363,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 333,
+      "width" : 363
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/5vcv26olqzm-mazlvyot/annotation-page/prkfmfntbp-mazlvyot",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/3z4o17sybiv-mazhxea7/annotation/9t0utiied6h-mazlvyot",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/5vcv26olqzm-mazlvyot",
+        "body" : {
+          "id" : "https://mirandaizguerra24.github.io/Plate_25/images/004/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 10652,
+          "width" : 11612,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 363,
+              "height" : 333
+            }, {
+              "width" : 726,
+              "height" : 666
+            }, {
+              "width" : 1452,
+              "height" : 1332
+            }, {
+              "width" : 2903,
+              "height" : 2663
+            }, {
+              "width" : 5806,
+              "height" : 5326
+            }, {
+              "width" : 11612,
+              "height" : 10652
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 11612,
+            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/004",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 10652
+          } ]
+        }
+      }, {
+        "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/5vcv26olqzm-mazlvyot/annotation-page/prkfmfntbp-mazlvyot/annotation/srg9sjsilri-mazvgjuh",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "Whole Plate Image (WPI) Positive" ]
+        },
+        "summary" : {
+          "en" : [ "" ]
+        },
+        "motivation" : "painting",
+        "target" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/5vcv26olqzm-mazlvyot",
+        "body" : {
+          "id" : "https://mirandaizguerra24.github.io/Plate_25/images/005/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 10652,
+          "width" : 11612,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 363,
+              "height" : 333
+            }, {
+              "width" : 726,
+              "height" : 666
+            }, {
+              "width" : 1452,
+              "height" : 1332
+            }, {
+              "width" : 2903,
+              "height" : 2663
+            }, {
+              "width" : 5806,
+              "height" : 5326
+            }, {
+              "width" : 11612,
+              "height" : 10652
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 11612,
+            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/005",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 10652
+          } ]
+        }
+      }, {
+        "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/5vcv26olqzm-mazlvyot/annotation-page/prkfmfntbp-mazlvyot/annotation/vqfz6jwbpc-mazvi431",
+        "type" : "Annotation",
+        "label" : {
+          "en" : [ "Whole Plate Image (WPI) Illuminated with Flash" ]
+        },
+        "motivation" : "painting",
+        "target" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/5vcv26olqzm-mazlvyot",
+        "body" : {
+          "id" : "https://mirandaizguerra24.github.io/Plate_25/images/006/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 10652,
+          "width" : 11612,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 363,
+              "height" : 333
+            }, {
+              "width" : 726,
+              "height" : 666
+            }, {
+              "width" : 1452,
+              "height" : 1332
+            }, {
+              "width" : 2903,
+              "height" : 2663
+            }, {
+              "width" : 5806,
+              "height" : 5326
+            }, {
+              "width" : 11612,
+              "height" : 10652
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 11612,
+            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/006",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 10652
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/mxr5nhb8vqk-mazlvn0u",
+    "type" : "Canvas",
+    "height" : 1435,
+    "width" : 11570,
+    "label" : {
+      "en" : [ "5x7 Central Capture, Negative" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "Equipment " ]
+      },
+      "value" : {
+        "en" : [ "Digital Transitions Versa" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Camera" ]
+      },
+      "value" : {
+        "en" : [ "iXH 150 MP" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "ISO" ]
+      },
+      "value" : {
+        "en" : [ "50" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Aperture" ]
+      },
+      "value" : {
+        "en" : [ "f/5.6" ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Exposure" ]
+      },
+      "value" : {
+        "en" : [ "1/4 sec." ]
+      }
+    }, {
+      "label" : {
+        "en" : [ "Side Captured" ]
+      },
+      "value" : {
+        "en" : [ "Emulsion Side Up" ]
+      }
+    } ],
+    "thumbnail" : [ {
+      "id" : "https://mirandaizguerra24.github.io/Plate_25/images/003/full/512,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 384,
+      "width" : 512
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/mxr5nhb8vqk-mazlvn0u/annotation-page/zxmmyrx0n6-mazlvn0u",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/3z4o17sybiv-mazhxea7/annotation/gda0rfn8h7-mazlvn0u",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/mxr5nhb8vqk-mazlvn0u",
+        "body" : {
+          "id" : "https://mirandaizguerra24.github.io/Plate_25/images/003/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1535,
+          "width" : 2048,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 64,
+              "height" : 48
+            }, {
+              "width" : 128,
+              "height" : 96
+            }, {
+              "width" : 256,
+              "height" : 192
+            }, {
+              "width" : 512,
+              "height" : 384
+            }, {
+              "width" : 1024,
+              "height" : 768
+            }, {
+              "width" : 2048,
+              "height" : 1535
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 2048,
+            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/003",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 1535
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/3aot7i59fpp-mazlw73l",
+    "type" : "Canvas",
+    "height" : 10652,
+    "width" : 11612,
+    "label" : {
+      "en" : [ "Whole Plate Image (WPI), Positive" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://mirandaizguerra24.github.io/Plate_25/images/005/full/363,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 333,
+      "width" : 363
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/3aot7i59fpp-mazlw73l/annotation-page/it859vjx8-mazlw73l",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/3z4o17sybiv-mazhxea7/annotation/c7qzonntv4u-mazlw73l",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/3aot7i59fpp-mazlw73l",
+        "body" : {
+          "id" : "https://mirandaizguerra24.github.io/Plate_25/images/005/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 10652,
+          "width" : 11612,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 363,
+              "height" : 333
+            }, {
+              "width" : 726,
+              "height" : 666
+            }, {
+              "width" : 1452,
+              "height" : 1332
+            }, {
+              "width" : 2903,
+              "height" : 2663
+            }, {
+              "width" : 5806,
+              "height" : 5326
+            }, {
+              "width" : 11612,
+              "height" : 10652
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 11612,
+            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/005",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 10652
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/tul1oyiuttl-mazlwhdw",
+    "type" : "Canvas",
+    "height" : 10652,
+    "width" : 11612,
+    "label" : {
+      "en" : [ "Whole Plate Image (WPI), Flash Illuminated" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://mirandaizguerra24.github.io/Plate_25/images/006/full/363,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 333,
+      "width" : 363
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/tul1oyiuttl-mazlwhdw/annotation-page/i53aiekkww-mazlwhdw",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/3z4o17sybiv-mazhxea7/annotation/1wbfi393mxmh-mazlwhdw",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/tul1oyiuttl-mazlwhdw",
+        "body" : {
+          "id" : "https://mirandaizguerra24.github.io/Plate_25/images/006/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 10652,
+          "width" : 11612,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 363,
+              "height" : 333
+            }, {
+              "width" : 726,
+              "height" : 666
+            }, {
+              "width" : 1452,
+              "height" : 1332
+            }, {
+              "width" : 2903,
+              "height" : 2663
+            }, {
+              "width" : 5806,
+              "height" : 5326
+            }, {
+              "width" : 11612,
+              "height" : 10652
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 11612,
+            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/006",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 10652
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/f3h5oweao4a-mazm7z9q",
+    "type" : "Canvas",
+    "height" : 7932,
+    "width" : 7807,
+    "label" : {
+      "en" : [ "Glass Plate Envelope" ]
+    },
+    "thumbnail" : [ {
+      "id" : "https://mirandaizguerra24.github.io/Plate_25/images/001/full/488,/0/default.jpg",
+      "type" : "Image",
+      "format" : "image/jpeg",
+      "height" : 496,
+      "width" : 488
+    } ],
+    "items" : [ {
+      "id" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/f3h5oweao4a-mazm7z9q/annotation-page/bhd5xahk6lk-mazm7z9q",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/3z4o17sybiv-mazhxea7/annotation/982gs5o6tml-mazm7z9p",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/3z4o17sybiv-mazhxea7/canvas/f3h5oweao4a-mazm7z9q",
+        "body" : {
+          "id" : "https://mirandaizguerra24.github.io/Plate_25/images/001/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 7932,
+          "width" : 7807,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 244,
+              "height" : 248
+            }, {
+              "width" : 488,
+              "height" : 496
+            }, {
+              "width" : 976,
+              "height" : 992
+            }, {
+              "width" : 1952,
+              "height" : 1983
+            }, {
+              "width" : 3904,
+              "height" : 3966
+            }, {
+              "width" : 7807,
+              "height" : 7932
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 7807,
+            "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/001",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 7932
+          } ]
+        }
+      } ]
+    } ]
+  } ]
 }
