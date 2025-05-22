@@ -1,0 +1,822 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://mirandaizguerra24.github.io/Plate_25/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in mirandaizguerra24/Plate_25 project"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://mirandaizguerra24.github.io/Plate_25/images/006/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "006"
+                ]
+            },
+            "height": 10652,
+            "width": 11612,
+            "items": [
+                {
+                    "id": "https://mirandaizguerra24.github.io/Plate_25/images/006/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mirandaizguerra24.github.io/Plate_25/images/006/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mirandaizguerra24.github.io/Plate_25/images/006/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 363,
+                                                "height": 333
+                                            },
+                                            {
+                                                "width": 726,
+                                                "height": 666
+                                            },
+                                            {
+                                                "width": 1452,
+                                                "height": 1332
+                                            },
+                                            {
+                                                "width": 2903,
+                                                "height": 2663
+                                            },
+                                            {
+                                                "width": 5806,
+                                                "height": 5326
+                                            },
+                                            {
+                                                "width": 11612,
+                                                "height": 10652
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 11612,
+                                        "@id": "https://mirandaizguerra24.github.io/Plate_25/images/006",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 10652,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mirandaizguerra24.github.io/Plate_25/images/006/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_002/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "page_002"
+                ]
+            },
+            "height": 3189,
+            "width": 3189,
+            "items": [
+                {
+                    "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_002/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_002/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_002/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 100,
+                                                "height": 100
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 200
+                                            },
+                                            {
+                                                "width": 399,
+                                                "height": 399
+                                            },
+                                            {
+                                                "width": 798,
+                                                "height": 798
+                                            },
+                                            {
+                                                "width": 1595,
+                                                "height": 1595
+                                            },
+                                            {
+                                                "width": 3189,
+                                                "height": 3189
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 3189,
+                                        "@id": "https://mirandaizguerra24.github.io/Plate_25/images/page_002",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3189,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mirandaizguerra24.github.io/Plate_25/images/page_002/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://mirandaizguerra24.github.io/Plate_25/images/005/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "005"
+                ]
+            },
+            "height": 10652,
+            "width": 11612,
+            "items": [
+                {
+                    "id": "https://mirandaizguerra24.github.io/Plate_25/images/005/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mirandaizguerra24.github.io/Plate_25/images/005/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mirandaizguerra24.github.io/Plate_25/images/005/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 363,
+                                                "height": 333
+                                            },
+                                            {
+                                                "width": 726,
+                                                "height": 666
+                                            },
+                                            {
+                                                "width": 1452,
+                                                "height": 1332
+                                            },
+                                            {
+                                                "width": 2903,
+                                                "height": 2663
+                                            },
+                                            {
+                                                "width": 5806,
+                                                "height": 5326
+                                            },
+                                            {
+                                                "width": 11612,
+                                                "height": 10652
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 11612,
+                                        "@id": "https://mirandaizguerra24.github.io/Plate_25/images/005",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 10652,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mirandaizguerra24.github.io/Plate_25/images/005/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://mirandaizguerra24.github.io/Plate_25/images/003/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "003"
+                ]
+            },
+            "height": 1535,
+            "width": 2048,
+            "items": [
+                {
+                    "id": "https://mirandaizguerra24.github.io/Plate_25/images/003/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mirandaizguerra24.github.io/Plate_25/images/003/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mirandaizguerra24.github.io/Plate_25/images/003/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 64,
+                                                "height": 48
+                                            },
+                                            {
+                                                "width": 128,
+                                                "height": 96
+                                            },
+                                            {
+                                                "width": 256,
+                                                "height": 192
+                                            },
+                                            {
+                                                "width": 512,
+                                                "height": 384
+                                            },
+                                            {
+                                                "width": 1024,
+                                                "height": 768
+                                            },
+                                            {
+                                                "width": 2048,
+                                                "height": 1535
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 2048,
+                                        "@id": "https://mirandaizguerra24.github.io/Plate_25/images/003",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1535,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mirandaizguerra24.github.io/Plate_25/images/003/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://mirandaizguerra24.github.io/Plate_25/images/002/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "002"
+                ]
+            },
+            "height": 7954,
+            "width": 7816,
+            "items": [
+                {
+                    "id": "https://mirandaizguerra24.github.io/Plate_25/images/002/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mirandaizguerra24.github.io/Plate_25/images/002/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mirandaizguerra24.github.io/Plate_25/images/002/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 245,
+                                                "height": 249
+                                            },
+                                            {
+                                                "width": 489,
+                                                "height": 498
+                                            },
+                                            {
+                                                "width": 977,
+                                                "height": 995
+                                            },
+                                            {
+                                                "width": 1954,
+                                                "height": 1989
+                                            },
+                                            {
+                                                "width": 3908,
+                                                "height": 3977
+                                            },
+                                            {
+                                                "width": 7816,
+                                                "height": 7954
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 7816,
+                                        "@id": "https://mirandaizguerra24.github.io/Plate_25/images/002",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 7954,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mirandaizguerra24.github.io/Plate_25/images/002/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_005/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "page_005"
+                ]
+            },
+            "height": 3189,
+            "width": 3189,
+            "items": [
+                {
+                    "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_005/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_005/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_005/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 100,
+                                                "height": 100
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 200
+                                            },
+                                            {
+                                                "width": 399,
+                                                "height": 399
+                                            },
+                                            {
+                                                "width": 798,
+                                                "height": 798
+                                            },
+                                            {
+                                                "width": 1595,
+                                                "height": 1595
+                                            },
+                                            {
+                                                "width": 3189,
+                                                "height": 3189
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 3189,
+                                        "@id": "https://mirandaizguerra24.github.io/Plate_25/images/page_005",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3189,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mirandaizguerra24.github.io/Plate_25/images/page_005/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://mirandaizguerra24.github.io/Plate_25/images/001/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "001"
+                ]
+            },
+            "height": 7932,
+            "width": 7807,
+            "items": [
+                {
+                    "id": "https://mirandaizguerra24.github.io/Plate_25/images/001/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mirandaizguerra24.github.io/Plate_25/images/001/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mirandaizguerra24.github.io/Plate_25/images/001/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 244,
+                                                "height": 248
+                                            },
+                                            {
+                                                "width": 488,
+                                                "height": 496
+                                            },
+                                            {
+                                                "width": 976,
+                                                "height": 992
+                                            },
+                                            {
+                                                "width": 1952,
+                                                "height": 1983
+                                            },
+                                            {
+                                                "width": 3904,
+                                                "height": 3966
+                                            },
+                                            {
+                                                "width": 7807,
+                                                "height": 7932
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 7807,
+                                        "@id": "https://mirandaizguerra24.github.io/Plate_25/images/001",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 7932,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mirandaizguerra24.github.io/Plate_25/images/001/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://mirandaizguerra24.github.io/Plate_25/images/004/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "004"
+                ]
+            },
+            "height": 10652,
+            "width": 11612,
+            "items": [
+                {
+                    "id": "https://mirandaizguerra24.github.io/Plate_25/images/004/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mirandaizguerra24.github.io/Plate_25/images/004/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mirandaizguerra24.github.io/Plate_25/images/004/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 363,
+                                                "height": 333
+                                            },
+                                            {
+                                                "width": 726,
+                                                "height": 666
+                                            },
+                                            {
+                                                "width": 1452,
+                                                "height": 1332
+                                            },
+                                            {
+                                                "width": 2903,
+                                                "height": 2663
+                                            },
+                                            {
+                                                "width": 5806,
+                                                "height": 5326
+                                            },
+                                            {
+                                                "width": 11612,
+                                                "height": 10652
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 11612,
+                                        "@id": "https://mirandaizguerra24.github.io/Plate_25/images/004",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 10652,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mirandaizguerra24.github.io/Plate_25/images/004/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_004/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "page_004"
+                ]
+            },
+            "height": 3189,
+            "width": 3189,
+            "items": [
+                {
+                    "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_004/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_004/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_004/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 100,
+                                                "height": 100
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 200
+                                            },
+                                            {
+                                                "width": 399,
+                                                "height": 399
+                                            },
+                                            {
+                                                "width": 798,
+                                                "height": 798
+                                            },
+                                            {
+                                                "width": 1595,
+                                                "height": 1595
+                                            },
+                                            {
+                                                "width": 3189,
+                                                "height": 3189
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 3189,
+                                        "@id": "https://mirandaizguerra24.github.io/Plate_25/images/page_004",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3189,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mirandaizguerra24.github.io/Plate_25/images/page_004/canvas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_003/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "page_003"
+                ]
+            },
+            "height": 3189,
+            "width": 3189,
+            "items": [
+                {
+                    "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_003/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_003/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://mirandaizguerra24.github.io/Plate_25/images/page_003/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 100,
+                                                "height": 100
+                                            },
+                                            {
+                                                "width": 200,
+                                                "height": 200
+                                            },
+                                            {
+                                                "width": 399,
+                                                "height": 399
+                                            },
+                                            {
+                                                "width": 798,
+                                                "height": 798
+                                            },
+                                            {
+                                                "width": 1595,
+                                                "height": 1595
+                                            },
+                                            {
+                                                "width": 3189,
+                                                "height": 3189
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 3189,
+                                        "@id": "https://mirandaizguerra24.github.io/Plate_25/images/page_003",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 3189,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://mirandaizguerra24.github.io/Plate_25/images/page_003/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

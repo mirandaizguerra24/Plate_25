@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 244,
+    "height" : 248
+  }, {
+    "width" : 488,
+    "height" : 496
+  }, {
+    "width" : 976,
+    "height" : 992
+  }, {
+    "width" : 1952,
+    "height" : 1983
+  }, {
+    "width" : 3904,
+    "height" : 3966
+  }, {
+    "width" : 7807,
+    "height" : 7932
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 7807,
+  "@id" : "https://mirandaizguerra24.github.io/Plate_25/images/001",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 7932
+}
